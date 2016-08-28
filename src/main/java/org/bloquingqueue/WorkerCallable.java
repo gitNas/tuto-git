@@ -1,4 +1,4 @@
-package com.tst;
+package org.bloquingqueue;
 
 import java.time.Instant;
 import java.util.concurrent.BlockingQueue;

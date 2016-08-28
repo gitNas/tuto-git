@@ -1,4 +1,4 @@
-package com.tst;
+package org.bloquingqueue;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
