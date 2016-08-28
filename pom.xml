@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>test-jenkins</groupId>
 	<artifactId>test-jenkins</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.1.0</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -20,9 +20,9 @@
 	</dependencies>
 	<distributionManagement>
 		<repository>
-			<id>continuous-integration</id>
+			<id>local-releases</id>
 			<name>LOCAL Integration Repository</name>
-			<url>http://127.0.0.1:8082/nexus/content/repositories/continuous-integration/</url>
+			<url>http://127.0.0.1:8082/repository/maven-central/</url>
 		</repository>
 		<snapshotRepository>
 			<id>local-snapshot</id>
