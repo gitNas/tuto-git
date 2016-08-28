@@ -27,10 +27,8 @@ public class WorkerCallable implements Runnable {
 				try {
 					blokingQueue.put(value);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-//				System.out.println(value);
 			}
 
 		}
