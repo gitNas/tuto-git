@@ -18,6 +18,19 @@
 		</dependency>
 
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>continuous-integration</id>
+			<name>LOCAL Integration Repository</name>
+			<url>http://127.0.0.1:8082/nexus/content/repositories/continuous-integration/</url>
+		</repository>
+		<snapshotRepository>
+			<id>local-snapshot</id>
+			<name>local Snapshot Repository</name>
+			<url>http://127.0.0.1:8082/repository/maven-central/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<build>
 
 		<plugins>
