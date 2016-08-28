@@ -1,5 +1,7 @@
+package org.bloquingqueue;
+import org.junit.Assert;
 
-public class Test {
+public class FirstTest {
 
 	@org.junit.Test
 	public void test() {
@@ -8,6 +10,6 @@ public class Test {
 
 	@org.junit.Test
 	public void test2() {
-		System.out.println("test");
+		Assert.assertTrue(false);
 	}
 }
