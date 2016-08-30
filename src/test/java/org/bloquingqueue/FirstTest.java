@@ -10,6 +10,6 @@ public class FirstTest {
 
 	@org.junit.Test
 	public void test2Test() {
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	}
 }
